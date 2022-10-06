@@ -21,6 +21,15 @@ html {
     border-radius: 50%;
 }
 
+.header svg:hover {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    border-radius: 50%;
+}
+
+.header svg {
+    cursor: pointer;
+}
+
 .header p {
     cursor: pointer;
 }
@@ -55,6 +64,13 @@ html {
     border: 1px solid #dcdcdc;
 }
 
+.header svg {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
 .bar:hover {
     outline: none;
     box-shadow: 1px 1px 4px 1px #dcdcdc;
@@ -81,6 +97,13 @@ html {
 }
 
 .bar img {
+    margin-bottom: -3px;
+    width: 16px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.bar svg {
     width: 16px;
     height: 16px;
     margin-top: 10px;
