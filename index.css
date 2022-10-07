@@ -203,7 +203,7 @@ footer li:hover {
 
 /* responsive website */
 
-@media screen and (max-width:630px) {
+@media (max-width:630px) {
     .searchbar {
         height: 45px;
         border: none;
